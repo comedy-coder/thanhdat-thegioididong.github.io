@@ -1,0 +1,593 @@
+   /*  Mobile & Tablet */
+   @media (max-width: 63.9375em) {
+
+
+      .banner-prev {
+         left: 2%;
+      }
+
+      .banner-next {
+         right: 37%;
+      }
+
+      .slider {
+         margin-top: 60px;
+      }
+
+      .header__hot {
+         display: none;
+      }
+
+      .header__technology {
+         display: none;
+      }
+
+      .header__ask {
+         display: none;
+      }
+
+      .header__game {
+         display: none;
+      }
+
+      .clock__xem--all {
+         display: none;
+      }
+
+      .hiden-app-product {
+         display: none;
+      }
+     
+}
+
+/* Tablet: min-width >= 740px and max-width < 1023px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+
+   .clock-banner-fixxmenu {
+      display: none;
+   }
+
+   .header__nav--menu {
+      justify-content: center;
+   }
+
+   .header__menu--list {
+      padding: 0 10px;
+   }
+      
+   .show__menu {
+      width: 500px;
+      left: -155px;
+   }
+
+   .slider-directional {
+      display: none;
+   }
+
+   .slider__banner--img {
+      height: 87px;
+   }
+
+   .slider-img {
+      width: 16.6667%;
+   }
+
+   /* js responsive */
+
+   .sale-prev {
+      transform: translateX(-50%);
+   }
+
+   .highlights-transform {
+      transform: translateX(-25%);
+   }
+
+   /*  */
+
+   .highlights-box {
+      font-size: 1.8rem;
+      line-height: 2.2rem;
+      margin-bottom: 20px;
+   }
+
+   .box-common-link {
+      padding: 0 4px;
+      font-size: 1.4rem;
+      line-height: 2rem;
+      margin: 0 4px;
+   }
+
+   .box-common {
+      justify-content: unset;
+   }
+
+   .next-highlights {
+      right: 8%;
+   }
+
+   .clock-dongho {
+      margin: 10px 10px;
+   }
+   
+   .clock-banner-img {
+      height: 480px;
+   }
+   
+   .game-app-img {
+      width: 198px;
+   }
+
+   .introduce-news-title {
+      line-height: unset;
+      font-size: 1.1rem;
+   }
+
+   .footer__policy--link {
+      display: block;
+      line-height: 2.2rem;
+   }
+
+   .game-click-prev {
+      top: 35px;
+   }
+
+   .game-click-next {
+      top: 35px;
+   }
+
+   .footer__policy--add-fixx {
+      display: flex;
+      align-items: center;
+   }
+}
+
+/* Mobile: max-width < 739px */
+@media only screen and (max-width: 46.1875em) {
+
+   .app {
+      overflow: hidden;
+   }
+
+   .header__modal--info {
+      max-width: 400px;
+   }
+
+   .header__modal--full {
+      margin: 0 4px;
+   }
+
+   #modal-block {
+      width: 85%;
+   }
+
+   .header__modal--input {
+      width: 85%;
+   }
+
+   .header__nav--menu {
+      display: none;
+   }
+   
+   .header__world--item {
+      display: none;
+   }
+
+   .header__cart--item {
+      display: none;
+   }
+
+   .header__logo--menu {
+      display: block;
+   }
+
+   .header__logo--menu-img {
+      width: 30px;
+      height: 30px;
+      border-radius: 30px;
+      margin: 2px;
+   }
+
+   .header__search--item {
+      width: 120px;
+   }
+
+   .header__price--item {
+      margin: 0 6px;
+   }
+
+   .banner-next {
+      right: 66.7%;
+   }
+
+   .header-world {
+      justify-content: unset;
+   }
+
+   .header__search--item {
+      margin: 0 6px;
+   }
+
+   .slider {
+      margin-top: 0;
+      padding-top: 0;
+   }
+
+   .slider__banner {
+      display: none;
+   }
+
+   .slider-img {
+      width: 16.66%;
+   }
+
+   .banner-advertisement {
+      margin: 10px 12px;
+
+   }
+
+   .fix-banner-menu {
+      height: 40px;
+   }
+
+   /* js */
+
+   .sale-prev {
+      transform: translateX(-133.2%);
+   }
+   
+   .highlights-transform {
+      transform: translateX(-132.5%);
+   }
+
+   .container__product {
+      margin: 0 6px;
+   }
+
+   .box-common {
+      justify-content: unset;
+      overflow-x: auto;
+      margin-right: 24px;
+      margin-top: 15px;
+      max-width: 100%;
+   }
+
+   .box-common::-webkit-scrollbar {
+      display: none;
+   }
+
+   .box-common-link {
+      flex-shrink: 0;
+      min-width: 145px;
+      padding: 10px 10px;
+      font-size: 1.2rem;
+      display: flex;
+      justify-content: center;
+   }
+
+   .hiden-app-product {
+      display: none;
+   }
+
+   .highlights-box {
+      margin: 0 24px;
+      font-size: 2.3rem;
+   }
+   
+   .next-highlights {
+      right: 0;
+   }
+
+   .product__most--full {
+      margin: 0 5px;
+   }
+
+   .clock-watch-call {
+      display: none;
+   }
+   
+   .clock-wtach-star {
+      display: none;
+   }
+
+   .list-product-installment {
+      display: none;
+   }
+
+   .clock-dongho-tap {
+      font-size: 1.2rem;
+      margin: 10px 5px;
+   }
+
+   .clock-Watch {
+      margin: 10px 4px;
+   }
+
+   .clock-dongho {
+      margin: 0 12px;
+   }
+
+   /* js */
+
+   .product-right {
+      transform: translateX(-67%)
+   }
+
+   .profession__trademark--title {
+      margin: 0 24px;
+   }
+   
+   .footer-container-app {
+      display: block;
+      margin: 20px;
+   }
+
+   .footer-policy {
+      display: block;
+   }
+
+   .clock-banner  {
+      display: none;
+   }
+
+   .clock-banner-fixxmenu {
+      display: block;
+   }
+   
+   .introduce {
+      display: block;
+      margin: 0 12px;
+   }
+
+
+   .game-app-img {
+      width: 382px;
+   }
+
+   .technology-hour-title-fixx {
+      display: block;
+      line-height: 3rem;
+   }
+
+   .slider__next {
+      top: 25%;
+   }
+
+   .slider__prev {
+      top: 25%;
+   }
+
+   .profession_-photo {
+      margin: 0 12px;
+   }
+
+   /* menu mobile */
+
+   .home__nav {
+      display: block;
+   }
+
+
+   .header-menu-app {
+      display: block;
+      transform: translateY(-100%);
+      transition: all 0.5s;
+      animation: oppenModal 0.5s linear;
+   }
+
+   .header__menu--mobile {
+      display: block;
+   }
+
+   
+   .show-header-menu {
+   transform: translateY(0);
+   }
+
+   .support-form {
+     width: 100%;
+     height: 100%;
+     bottom: 0;
+     right: 0;
+   }
+
+   .slider-directional {
+      display: block;
+   }
+   
+   .home__nav--menu-link-fixx-menu {
+      margin-left: 17px;
+   }
+
+}
+
+/* mobile 678 thường */
+
+@media only screen and (min-width: 23.4375em) and (max-width: 25.8125em) {
+   .banner-next {
+      right: 70.7%;
+   }
+
+   .header__history {
+      display: none;
+   }
+
+   .home__nav--menu-link {
+      padding: 5px 6px;
+   }
+   
+   .sale-prev {
+      transform: translateX(-132%);
+   }
+
+   .container__product {
+      margin: 0 ;
+   }
+
+   .highlights-box {
+      font-size: 2.2rem;
+   }
+
+   .highlights-transform {
+      transform: translateX(-137%);
+   }
+
+   .game-app-img {
+      width: 343px;
+   }
+
+   .header__menu--click {
+      margin-left: 30px;
+   }
+
+   .clock-dongho-tap {
+      margin: 10px 4px;
+      text-align: center;
+      padding: 5px 5px;
+   }
+}
+
+/* ipad pro */
+
+@media only screen and (min-width: 64em) and (max-width: 85.3125em) {
+   .header__hot {
+      display: none;
+   }
+
+   .header__menu--list {
+      padding: 0 5.6px;
+      font-size: 1.1rem;
+   }
+
+   .box-common-link {
+      margin: 0 2px;
+   }
+
+   .next-highlights {
+      right: 2%;
+   }
+
+   .clock__xem--all {
+      display: none;
+   }
+
+   .game-app-img {
+      width: 304px;
+   }
+
+   .banner-next {
+      right: 16%;
+   }
+
+   .banner-prev {
+      left: 2%;
+   }
+
+   .slider-img {
+      width: 16.66%;
+   }
+
+   .slider__banner--img {
+      height: 131px;
+   }
+}
+
+
+/* ip 5s */
+
+@media only screen and (min-width: 20em) and (max-width: 23.375em) {
+   .header__search {
+      display: none;
+   }
+
+   .home__nav--menu-link {
+      padding: 5px 3px;
+      margin-left: 0;
+   }
+
+   .home__nav--menu-link-fixx-menu {
+      margin-left: 10px;
+   }
+
+   .header-world {
+      justify-content: center;
+   }
+
+   .sale-prev {
+      transform: translateX(-134%);
+   }
+
+   .container__product {
+      margin: 0 0;
+   }
+
+   .support-form {
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+   }
+
+   .highlights-box {
+      font-size: 1.8rem;
+   }
+
+   .highlights-transform {
+      transform: translateX(-146%);
+   }
+   
+   .game-app-img {
+      width: 288px;
+   }
+
+   .game-click-next {
+      top: 60px;
+   }
+   .game-click-prev {
+      top: 60px;
+   }
+
+   .technology-hour-title-item {
+      font-size: 1.4rem;
+   }
+
+   .profession__trademark--title {
+      font-size: 1.7rem;
+   }
+
+   .clock-dongho-tap {
+      margin: 10px 3px;
+      padding: 5px 3px;
+      text-align: center;
+   }
+
+   .banner-next {
+      right: 74.5%;
+   }
+
+   .header__modal--info {
+      max-width: 310px;
+   }
+
+   .header__modal--selective {
+      margin-right: 30px;
+   }
+
+   .clock-Watch {
+      margin: 0;
+   }
+
+   .list-price-present {
+      font-size: 1.4rem;
+   }
+
+   .list-product-star {
+      display: none;
+   }
+
+   .list-product-new {
+      display: none;
+   }
+
+}
